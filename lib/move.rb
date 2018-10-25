@@ -9,9 +9,8 @@ end
 # code your input_to_index and move method here!
 def input_to_index(user_input)
   user_input.to_i - 1
-
 end
 
 def move (array, index, char="X")
-
+  array[input_to_index(index)]=char
 end
